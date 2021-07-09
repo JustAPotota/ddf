@@ -1,0 +1,25 @@
+profiles {
+	platforms {
+		os: OS_ID_GENERIC
+		premultiply_alpha: true
+		max_texture_size: 0
+		formats {
+			format: TEXTURE_FORMAT_RGBA
+			compression_type: COMPRESSION_TYPE_DEFAULT
+			compression_level: BEST
+		}
+		mipmaps: true
+	}
+	name: "Default"
+}
+profiles {
+	platforms {
+		os: OS_ID_OSX
+		mipmaps: true
+	}
+	name: "Default2"
+}
+path_settings {
+	path: "**"
+	profile: "Default"
+}

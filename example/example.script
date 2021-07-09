@@ -46,10 +46,12 @@ function init(self)
 	demo("model")
 	demo("tilemap")
 	demo("cubemap")
+	demo("texture_profiles")
 	demo("input_binding")
 	demo("particlefx")
 	demo("material")
 	demo("render")
+	demo("display_profiles")
 	demo("animationset")
 end
 

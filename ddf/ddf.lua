@@ -227,6 +227,9 @@ function M.decode_tilemap(s) return M.decode(s, protoc.loaded["/ddf/proto/gamesy
 function M.encode_cubemap(t) return M.encode(t, protoc.loaded["/ddf/proto/graphics/graphics_ddf.proto"].message_type[1]) end
 function M.decode_cubemap(s) return M.decode(s, protoc.loaded["/ddf/proto/graphics/graphics_ddf.proto"].message_type[1]) end
 
+function M.encode_texture_profiles(t) return M.encode(t, protoc.loaded["/ddf/proto/graphics/graphics_ddf.proto"].message_type[7]) end
+function M.decode_texture_profiles(s) return M.decode(s, protoc.loaded["/ddf/proto/graphics/graphics_ddf.proto"].message_type[7]) end
+
 
 -- input/input_ddf.proto
 function M.encode_input_binding(t) return M.encode(t, protoc.loaded["/ddf/proto/input/input_ddf.proto"].message_type[10]) end
@@ -246,6 +249,9 @@ function M.decode_material(s) return M.decode(s, protoc.loaded["/ddf/proto/rende
 -- render/render_ddf.proto
 function M.encode_render(t) return M.encode(t, protoc.loaded["/ddf/proto/render/render_ddf.proto"].message_type[1]) end
 function M.decode_render(s) return M.decode(s, protoc.loaded["/ddf/proto/render/render_ddf.proto"].message_type[1]) end
+
+function M.encode_display_profiles(t) return M.encode(t, protoc.loaded["/ddf/proto/render/render_ddf.proto"].message_type[10]) end
+function M.decode_display_profiles(s) return M.decode(s, protoc.loaded["/ddf/proto/render/render_ddf.proto"].message_type[10]) end
 
 
 -- rig/rig_ddf.proto

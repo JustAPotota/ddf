@@ -1,0 +1,22 @@
+profiles {
+	qualifiers {
+		width: 1280
+		height: 720
+	}
+	name: "Landscape"
+}
+profiles {
+	qualifiers {
+		width: 720
+		height: 1280
+	}
+	name: "Portrait"
+}
+profiles {
+	qualifiers {
+		width: 5
+		height: 6
+		device_models: "test"
+	}
+	name: "New"
+}
