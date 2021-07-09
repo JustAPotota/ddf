@@ -12,7 +12,6 @@ height = 640
 title = ddf
 custom_resources = /ddf/proto
 dependencies#0 = https://github.com/Melsoft-Games/defold-protobuf/archive/master.zip
-dependencies#1 = https://github.com/Melsoft-Games/defold-cjson/archive/master.zip
 
 [library]
 include_dirs = ddf

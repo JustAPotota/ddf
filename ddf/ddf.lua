@@ -2,10 +2,6 @@ local protoc = require("pb.protoc")
 protoc = protoc.new()
 protoc:load(sys.load_resource("/ddf/proto/ddf.proto"))
 
-local file = io.open("test.json", "w")
-file:write(cjson.encode(protoc.loaded))
-file:close()
-
 local M = {}
 
 local function find_message(name, t, path)
