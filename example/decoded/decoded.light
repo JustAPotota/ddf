@@ -1,0 +1,10 @@
+id: "didnt know these existed"
+type: POINT
+intensity: 5.0
+color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+}
+range: 100.0
+decay: 5.0

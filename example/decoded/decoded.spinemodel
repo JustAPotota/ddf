@@ -1,0 +1,5 @@
+spine_scene: "/example/decoded/decoded.spinescene"
+default_animation: ""
+skin: ""
+blend_mode: BLEND_MODE_ALPHA
+material: "/builtins/materials/spine.material"

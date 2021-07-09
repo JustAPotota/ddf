@@ -1,0 +1,7 @@
+material: "/builtins/materials/model.material"
+default_animation: ""
+skeleton: ""
+textures: "/assets/tile_0122.png"
+mesh: "/builtins/assets/meshes/cube.dae"
+name: "unnamed"
+animations: ""

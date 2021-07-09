@@ -1,0 +1,32 @@
+fragment_program: "/builtins/materials/sprite.fp"
+samplers {
+	filter_mag: FILTER_MODE_MAG_NEAREST
+	wrap_u: WRAP_MODE_REPEAT
+	filter_min: FILTER_MODE_MIN_NEAREST
+	name: "tex0"
+	wrap_v: WRAP_MODE_REPEAT
+}
+vertex_constants {
+	type: CONSTANT_TYPE_USER
+	value {
+		x: 0.000000
+		w: 0.000000
+		y: 0.000000
+		z: 0.000000
+	}
+	name: "foo"
+}
+fragment_constants {
+	type: CONSTANT_TYPE_USER
+	value {
+		x: 0.000000
+		w: 0.000000
+		y: 0.000000
+		z: 0.000000
+	}
+	name: "bar"
+}
+tags: "cool"
+vertex_program: "/builtins/materials/sprite.vp"
+name: "my_material"
+vertex_space: VERTEX_SPACE_WORLD

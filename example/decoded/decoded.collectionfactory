@@ -1,0 +1,2 @@
+prototype: "/example/decoded/decoded.collection"
+load_dynamically: true

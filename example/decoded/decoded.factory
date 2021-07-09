@@ -1,0 +1,2 @@
+prototype: "/example/decoded/decoded.go"
+load_dynamically: true

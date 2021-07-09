@@ -1,0 +1,79 @@
+local ddf = require("ddf.ddf")
+
+local function read(filename)
+	local file = assert(io.open(filename, "r"))
+	local data = file:read("*a")
+	file:close()
+	return data
+end
+local function write(filename, data)
+	local file = io.open(filename, "w")
+	file:write(data)
+	file:close()
+end
+
+-- Parse decoded.<name>, pprint it, re-encode it, and save that to encoded.<name>
+local function demo(name)
+	local decoded = ddf["decode_" .. name](read("example/decoded/decoded." .. name))
+	print(name .. ":")
+	pprint(decoded)
+	write("example/encoded/encoded." .. name, ddf["encode_" .. name](decoded))
+end
+
+function init(self)
+	-- Example usage:
+	local text = read("example/decoded/decoded.font")
+	local font = ddf.decode_font(text)
+	print("font:")
+	pprint(font)
+	write("example/encoded/encoded.font", ddf.encode_font(font))
+
+
+	demo("camera")
+	demo("collisionobject")
+	demo("spinescene")
+	demo("spinemodel")
+	demo("sprite")
+	demo("sound")
+	demo("collection")
+	demo("go")
+	demo("atlas")
+	demo("factory")
+	demo("collectionfactory")
+	demo("light")
+	demo("gui")
+	demo("label")
+	demo("model")
+	demo("tilemap")
+	demo("cubemap")
+	demo("input_binding")
+	demo("particlefx")
+	demo("material")
+	demo("render")
+	demo("animationset")
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	-- Add update code here
+	-- Remove this function if not needed
+end
+
+function on_message(self, message_id, message, sender)
+	-- Add message-handling code here
+	-- Remove this function if not needed
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end
