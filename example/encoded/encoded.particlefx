@@ -108,7 +108,7 @@ emitters {
 		key: PARTICLE_KEY_ANGULAR_VELOCITY
 	}
 	blend_mode: BLEND_MODE_ADD
-	animation: "char_e"
+	animation: "logo"
 	material: "/builtins/materials/particlefx.material"
 	size_mode: SIZE_MODE_MANUAL
 	inherit_velocity: 0.000000

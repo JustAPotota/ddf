@@ -1,4 +1,4 @@
 tile_set: "/example/decoded/decoded.atlas"
-default_animation: "char_a"
+default_animation: "logo"
 material: "/builtins/materials/sprite.material"
 blend_mode: BLEND_MODE_ALPHA

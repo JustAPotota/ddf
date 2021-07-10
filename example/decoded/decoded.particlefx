@@ -15,7 +15,7 @@ emitters {
     w: 0.70710677
   }
   tile_source: "/example/decoded/decoded.atlas"
-  animation: "char_e"
+  animation: "logo"
   material: "/builtins/materials/particlefx.material"
   blend_mode: BLEND_MODE_ADD
   particle_orientation: PARTICLE_ORIENTATION_INITIAL_DIRECTION

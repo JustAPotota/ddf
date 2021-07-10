@@ -1,121 +1,15 @@
 animations {
-  id: "char_a"
+  id: "logo"
   images {
-    image: "/assets/character_0000.png"
+    image: "/builtins/assets/images/logo/logo_256.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/character_0001.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_b"
-  images {
-    image: "/assets/character_0002.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0003.png"
+    image: "/builtins/assets/images/logo/logo_blue_256.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_c"
-  images {
-    image: "/assets/character_0004.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0005.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_d"
-  images {
-    image: "/assets/character_0006.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0007.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0008.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_e"
-  images {
-    image: "/assets/character_0009.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0010.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0011.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_PINGPONG
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_f"
-  images {
-    image: "/assets/character_0012.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0013.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0014.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
-  flip_horizontal: 0
-  flip_vertical: 0
-}
-animations {
-  id: "char_g"
-  images {
-    image: "/assets/character_0015.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0016.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  images {
-    image: "/assets/character_0017.png"
-    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
-  }
-  playback: PLAYBACK_LOOP_FORWARD
-  fps: 3
+  fps: 2
   flip_horizontal: 0
   flip_vertical: 0
 }
