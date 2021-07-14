@@ -1,4 +1,0 @@
-material: "/builtins/materials/sprite.material"
-tile_set: "/example/decoded/decoded.atlas"
-default_animation: "logo"
-blend_mode: BLEND_MODE_ALPHA

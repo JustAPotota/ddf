@@ -1,5 +1,0 @@
-script: "/builtins/render/default.render_script"
-materials {
-	material: "/example/decoded/decoded.material"
-	name: "my_material"
-}
