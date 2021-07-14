@@ -73,7 +73,7 @@ function M.encode(t, message)
 				out = out .. ("%s: %s\n"):format(k, v and "true" or "false")
 
 			elseif type_v == "table" then
-				out = out .. ("%s {\n%s}\n"):format(k,indent(M.encode(v, get_message(field.type_name)), 1):sub(1,-2))
+				out = out .. ("%s {\n%s}\n"):format(k,indent(M.encode(v, get_message(field.type_name)), 1):sub(1,-3))
 			end
 		end
 	end
