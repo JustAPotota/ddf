@@ -24,19 +24,19 @@ The module contains a decode and encode function for each supported type, e.g. `
 local ddf = require("ddf.ddf")
 
 function init(self)
-    -- Load and decode tilemap
+	-- Load and decode tilemap
 	local file = io.open("main/level.tilemap", "r")
 	local map = ddf.decode_tilemap(file:read("*a"))
 	file:close()
-	
+
 	-- Flip every tile in layer 1 horizontally
 	for i, cell in ipairs(map.layers[1].cell) do
-        cell.h_flip = 1
-    end
-    
-    -- Encode and save tilemap
-    local file = io.open("main/level.tilemap", "w")
-    file:write(ddf.encode_tilemap(map))
-    file:close()
+		cell.h_flip = 1
+	end
+
+	-- Encode and save tilemap
+	local file = io.open("main/level.tilemap", "w")
+	file:write(ddf.encode_tilemap(map))
+	file:close()
 end
 ```
