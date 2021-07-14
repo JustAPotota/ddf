@@ -181,6 +181,9 @@ function M.decode_factory(s) return M.decode(s, protoc.loaded["/ddf/proto/gamesy
 function M.encode_collectionfactory(t) return M.encode(t, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[2]) end
 function M.decode_collectionfactory(s) return M.decode(s, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[2]) end
 
+function M.encode_collectionproxy(t) return M.encode(t, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[4]) end
+function M.decode_collectionproxy(s) return M.decode(s, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[4]) end
+
 function M.encode_light(t) return M.encode(t, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[6]) end
 function M.decode_light(s) return M.decode(s, protoc.loaded["/ddf/proto/gamesys/gamesys_ddf.proto"].message_type[6]) end
 
