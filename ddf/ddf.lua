@@ -42,7 +42,7 @@ end
 
 -- Add n tabs to each line of s
 local function indent(s, n)
-	local tab = ("\t"):rep(n)
+	local tab = ("  "):rep(n)
 	return tab .. s:gsub("\n", "\n" .. tab)
 end
 
